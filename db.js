@@ -102,7 +102,7 @@
 //     host: "localhost",
 //     user: "root",
 //     password: "khushboo@841460",
-//     database: "Hospitals"
+//     database: ""
 // });
 // db.connect((error) => {
 //     if (error) {
@@ -168,7 +168,7 @@ const db=mysql.createConnection({
     host:"localhost",
     user:"root",
     password:"khushboo@841460",
-    database:"school"
+    database:"employees"
 });
 db.connect((error)=>{
   if(error){
